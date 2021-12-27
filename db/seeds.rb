@@ -1,5 +1,7 @@
 perseverance = Rover.find_or_create_by(name: "Perseverance",
                                     landing_date: Date.new(2021, 2, 18))
+ingenuity = Rover.find_or_create_by(name: "Ingenuity",
+                                    landing_date: Date.new(2021, 2, 18))
 curiosity = Rover.find_or_create_by(name: "Curiosity",
                                     landing_date: Date.new(2012, 8, 6))
 opportunity = Rover.find_or_create_by(name: "Opportunity",
@@ -24,6 +26,9 @@ perseverance.cameras.find_or_create_by(name: "SKYCAM", full_name: "MEDA Skycam")
 perseverance.cameras.find_or_create_by(name: "SHERLOC_WATSON", full_name: "SHERLOC WATSON Camera")
 perseverance.cameras.find_or_create_by(name: "SUPERCAM_RMI", full_name: "SuperCam Remote Micro Imager")
 perseverance.cameras.find_or_create_by(name: "LCAM", full_name: "Lander Vision System Camera")
+
+ingenuity.cameras.find_or_create_by(name: "HELI_NAV", full_name: "Helicopter Navigation Camera")
+ingenuity.cameras.find_or_create_by(name: "HELI_RTE", full_name: "Helicopter Color Camera")
 
 opportunity.cameras.find_or_create_by(name: "FHAZ", full_name: "Front Hazard Avoidance Camera")
 opportunity.cameras.find_or_create_by(name: "RHAZ", full_name: "Read Hazard Avoidance Camera")
