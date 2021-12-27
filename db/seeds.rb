@@ -53,6 +53,7 @@ spirit.cameras.find_or_create_by(name: "MINITES", full_name: "Miniature Thermal 
 spirit.cameras.find_or_create_by(name: "ENTRY", full_name: "Entry, Descent, and Landing Camera")
 
 PerseveranceScraper.new.scrape
+IngenuityScraper.new.scrape
 CuriosityScraper.new.scrape
 OpportunitySpiritScraper.new(opportunity).scrape
 OpportunitySpiritScraper.new(spirit).scrape

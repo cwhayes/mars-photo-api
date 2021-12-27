@@ -5,6 +5,10 @@ require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
 
+task scrape_ingenuity: :environment do
+  IngenuityScraper.new.scrape
+end
+
 task scrape_perseverance: :environment do
   PerseveranceScraper.new.scrape
 end

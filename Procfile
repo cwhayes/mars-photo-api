@@ -1,3 +1,4 @@
+ingenuity_scraper: rake scrape_ingenuity
 perseverance_scraper: rake scrape_perseverance
 curiosity_scraper: rake scrape_curiosity
 opportunity_scraper: rake scrape_opportunity

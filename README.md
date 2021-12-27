@@ -35,6 +35,13 @@ Along with querying by date, results can also be filtered by the camera with whi
    SKYCAM|MEDA Skycam
    SHERLOC_WATSON|SHERLOC WATSON Camera
 
+#### Ingenuity helicopter
+
+     Abbreviation | Camera                       
+     ------------ | ------------------------------
+      HELI_NAV|Helicopter Navigation Camera
+      HELI_RTE|Helicopter Color Camera
+
 #### Other rovers
 
   Abbreviation | Camera                         | Curiosity | Opportunity | Spirit
