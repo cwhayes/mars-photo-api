@@ -37,10 +37,10 @@ Along with querying by date, results can also be filtered by the camera with whi
 
 #### Ingenuity helicopter
 
-     Abbreviation | Camera                       
-     ------------ | ------------------------------
-      HELI_NAV|Helicopter Navigation Camera
-      HELI_RTE|Helicopter Color Camera
+   Abbreviation | Camera                       
+   ------------ | ------------------------------
+    HELI_NAV|Helicopter Navigation Camera
+    HELI_RTE|Helicopter Color Camera
 
 #### Other rovers
 
